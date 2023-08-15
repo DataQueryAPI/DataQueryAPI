@@ -14,7 +14,7 @@ The `DataQueryAPI` module is a TypeScript class that provides methods for queryi
 To use the `DataQueryAPI` module in your Deno project, you can import it as follows:
 
 ```typescript
-import DataQueryAPI from "https://deno.land/x/data_query_api/mod.ts";
+import DataQueryAPI from "https://deno.land/x/dataqueryapi/mod.ts";
 ```
 
 ## Usage
@@ -26,7 +26,7 @@ Here's a quick overview of the features provided by the `DataQueryAPI` module:
 You can create an instance of the `API` class by providing either an initial data array or a file path containing JSON data:
 
 ```typescript
-import DataQueryAPI from "https://deno.land/x/data_query_api/mod.ts";
+import DataQueryAPI from "https://deno.land/x/dataqueryapi/mod.ts";
 
 const initialData = [
   { id: 1, name: "Alice", age: 30 },
